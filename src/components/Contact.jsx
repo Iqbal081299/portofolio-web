@@ -31,14 +31,7 @@ function Contact() {
 const alert = () => {
   Swal.fire({
     html: `
-    <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="./src/assets/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
-      <p style="color: #00FFFF; font-size: 18px; margin-top: 20px;">Berhasil Terkirim !!</p>
-      <audio autoplay>
-        <source src="/portofolio-web/src/assets/anim.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    
   `, 
     background: "#212529",
     customClass: {
