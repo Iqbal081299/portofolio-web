@@ -32,7 +32,7 @@ const alert = () => {
   Swal.fire({
     html: `
     <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="src/assets/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
+      <img src="https://github.com/Iqbal081299/portofolio-web/blob/ab03a64b1b2c87e744ee212673a52db2dc8ea428/src/assets/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
       <p style="color: #00FFFF; font-size: 18px; margin-top: 20px;">Berhasil Terkirim !!</p>
       <audio autoplay>
         <source src="https://raw.githubusercontent.com/iqbal081299/portofolio-web/main/src/assets/anim.mp3" type="audio/mpeg">
