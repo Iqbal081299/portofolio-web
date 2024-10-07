@@ -35,7 +35,7 @@ const alert = () => {
       <img src="src/assets/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
       <p style="color: #00FFFF; font-size: 18px; margin-top: 20px;">Berhasil Terkirim !!</p>
       <audio autoplay>
-        <source src="src/assets/anim.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/iqbal081299/portofolio-web/main/src/assets/anim.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </div>
