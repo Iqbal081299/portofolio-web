@@ -1,0 +1,92 @@
+
+
+.glow{
+-webkit-box-reflect: below 5px linear-gradient(transparent,#0005);
+letter-spacing: 10px;
+line-height: 0.70em;
+outline: none;
+animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+    0%,5.1%,10%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+    color:#000000;
+    box-shadow:none;
+    }
+15%,18.1%,20.1%,30%,50%,60.1%,100%
+    {
+    color: cyan;
+    text-shadow: 0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 40px cyan,
+    0 0 80px cyan,
+    0 0 160px cyan,
+    0 0 20px cyan,   
+    }
+}
+
+
+.gbr{
+    border-radius: 50%;
+    box-shadow: 0 0 25px cyan;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+.gbr:hover{
+box-shadow: 0 0 25px cyan,
+0 0 50px cyan,
+0 0 100px cyan;
+}
+
+.git{
+    border-radius: 15%;
+    box-shadow: 0 0 0px #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+.git:hover{
+color: rgb(255, 255, 255);
+box-shadow: 0 0 25px #ffffff,
+0 0 50px #ffffff,
+0 0 100px #ffffff;
+}
+
+.fb{
+    border-radius: 15%;
+    box-shadow: 0 0 0px #034bf4;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+.fb:hover{
+color: #034bf4;
+box-shadow: 0 0 25px #034bf4,
+0 0 50px #034bf4,
+0 0 100px #034bf4;
+}
+
+.ig{
+    border-radius: 15px;
+    box-shadow: 0 0 0px #f40367;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+.ig:hover{
+color:#f40367;
+box-shadow: 0 0 25px #f40367,
+0 0 50px #f40367,
+0 0 100px #f40367;
+}
+
+.in{
+    border-radius: 5px;
+    box-shadow: 0 0 0px #03bcf4;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+.in:hover{
+color: #03bcf4;
+box-shadow: 0 0 25px #03bcf4,
+0 0 50px #03bcf4,
+0 0 100px #03bcf4;
+}
