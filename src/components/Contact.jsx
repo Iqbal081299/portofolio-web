@@ -32,10 +32,10 @@ const alert = () => {
   Swal.fire({
     html: `
     <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="/src/assets/popup/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
+      <img src="src/assets/popup/dino.gif" alt="Success GIF" style="width: 150px; height: auto;">
       <p style="color: #00FFFF; font-size: 18px; margin-top: 20px;">Berhasil Terkirim !!</p>
       <audio autoplay>
-        <source src="/src/assets/popup/anim.mp3" type="audio/mpeg">
+        <source src="src/assets/popup/anim.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </div>
