@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `Saya adalah seorang pengembang front-end yang penuh semangat dengan keahlian dalam menciptakan antarmuka web yang dinamis dan responsif. Dengan pengalaman  paling tidak 1 tahun, saya telah mengasah keterampilan saya dalam teknologi front-end seperti React dan Next.js. Tujuan saya adalah memanfaatkan keahlian saya untuk merancang solusi inovatif yang meningkatkan pengalaman pengguna dan memperkuat pertumbuhan bisnis.`;
 
